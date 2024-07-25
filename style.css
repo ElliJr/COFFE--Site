@@ -11,7 +11,10 @@
     
 }
 body{
-    background-color: rgba(102, 67, 67, 0.788);
+    background-image: url("coffe.png");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-attachment: fixed;
 }
 div.partePrincipal{
     margin: 10px;
