@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@0..45&family=Kalnia+Glaze:wght@100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Honk:MORF@0..45&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(102, 67, 67, 0.788);
+}
+div.partePrincipal{
+    margin: 10px;
+}
+div.detalhe{
+    background-color: rgba(48, 6, 6, 0.76);
+}
+img, h3{
+    display: inline-flex;
+}
+.h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 43px
+}
+div.menu{
+    background-color: rgba(0, 0, 0, 0.644);
+    margin-left: 500px;
+    width: 500px; 
+    height: 50px;
+    position: absolute;
+    top: 20px;  
+    padding: 5px;
+    border-radius: 12px;
+}
+div.meuMenu{
+    position: absolute;
+    left: 470px;
+    top: 8px;
+    font-size: 40px;
+}
+nav{
+    margin-left: 40px;
+}
+ul{
+margin-right:30px ;
+display: flex;
+}
+.entrar{
+    position: absolute;
+    left: 730px;
+    background-color: coral;
+    padding: 7px;
+    border-radius: 20px;
+}
+li{
+    flex: auto;
+    display: block;
+    margin-inline: 12px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.a{
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 2px;
+    text-decoration: none;
+    color: wheat;
+    transition: 0.5s;
+}
+.a:hover{
+    transition: 0.5s;
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+div.conteiner{
+    margin: 100px;
+    padding: 3px;
+    backdrop-filter:(8px);
+    border-radius: 12px;
+}
+.conteinerType{
+   padding: 10px;
+}
+    div.card1{
+        backdrop-filter: opacity(20%);
+        padding: 30px;
+        transition: 1s;
+        border-radius: 12px;
+    }
+
+    .card1:hover{
+        transition: 1s;
+        background-color: rgba(29, 2, 2, 0.815);
+        box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 60px 20px;
+    }
+    .junto{
+        margin: 12px;
+        padding: 12px;
+        display: inline-flex;
+    }
+    p{
+        margin: 20px;
+        padding: 2px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 20px;
+    }
+    .ajusteImagem{
+        margin: 8px;
+    }
+    .outraImagem{
+        margin-left: 209px;
+    }
+    img{
+        border-radius: 12px;
+        transition: 1s;
+    }
+    img:hover{
+        transition: 1s;
+        transform: rotateZ(4deg);
+    }
+    .conteinerEmoji{
+        margin-left: 300px;
+    }
+    .emoji{
+        transition: 1s;
+    }
+    .emoji:hover{
+        transition: 1s;
+        transform: rotateZ(40deg);
+    }
+    .img{
+        width: 600px;
+    }
+section{
+    margin: 10px;
+}
+.texto{
+    margin-top: 30px;
+}
+.paragrafo{
+     position: relative;
+     top: 70px;
+}
+.ultimaParte{
+    margin: 20px;
+    padding: 12px;
+    
+}
+.parte{
+    margin: 10px;
+    padding: 50px;
+    background-image: url("https://img.freepik.com/fotos-gratis/pilha-de-3d-popular-social-media-logos_1379-881.jpg");
+    background-repeat: no-repeat;   
+    background-size: 1370px 900px;
+    border-radius: 12px;
+}
+.primeiraArea{
+    margin: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.area1{
+    margin: 10px;
+    padding: 6px;
+    display: inline-flex;
+}
+.icones{
+        font-size: 18px;
+        padding: 5px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+}
+.voltarTopo{
+    margin: 30px;
+}
+.back-to-top{
+    transition: 1s;
+    margin: 12;
+    padding: 5px;
+}
+.back-to-top:hover{
+    transition: 1s;
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
