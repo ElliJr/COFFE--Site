@@ -161,47 +161,47 @@ section{
      position: relative;
      top: 70px;
 }
-.ultimaParte{
-    margin: 20px;
-    padding: 12px;
-    
-}
-.parte{
-    margin: 10px;
-    padding: 50px;
-    background-image: url("https://img.freepik.com/fotos-gratis/pilha-de-3d-popular-social-media-logos_1379-881.jpg");
-    background-repeat: no-repeat;   
-    background-size: 1370px 900px;
-    border-radius: 12px;
-}
-.primeiraArea{
-    margin: 12px;
-    padding: 12px;
-    display: flex;
-    justify-content: space-around;
-}
-.area1{
-    margin: 10px;
-    padding: 6px;
-    display: inline-flex;
-}
-.icones{
-        font-size: 18px;
+    .ultimaParte{
+        margin: 20px;
+        padding: 12px;
+        
+    }
+    .parte{
+        margin: 10px;
+        padding: 50px;
+        background-image: url("https://img.freepik.com/fotos-gratis/pilha-de-3d-popular-social-media-logos_1379-881.jpg");
+        background-repeat: no-repeat;   
+        background-size: 1370px 900px;
+        border-radius: 12px;
+    }
+    .primeiraArea{
+        margin: 12px;
+        padding: 12px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .area1{
+        margin: 10px;
+        padding: 6px;
+        display: inline-flex;
+    }
+    .icones{
+            font-size: 18px;
+            padding: 5px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+    }
+    .voltarTopo{
+        margin: 30px;
+    }
+    .back-to-top{
+        transition: 1s;
+        margin: 12;
         padding: 5px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-}
-.voltarTopo{
-    margin: 30px;
-}
-.back-to-top{
-    transition: 1s;
-    margin: 12;
-    padding: 5px;
-}
-.back-to-top:hover{
-    transition: 1s;
-    border-radius: 17px;
-    background-color: rgba(0, 0, 0, 0.555);
-}
+    }
+    .back-to-top:hover{
+        transition: 1s;
+        border-radius: 17px;
+        background-color: rgba(0, 0, 0, 0.555);
+    }
