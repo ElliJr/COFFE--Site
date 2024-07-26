@@ -10,6 +10,9 @@
     box-sizing: border-box;
     
 }
+.efeito-txt-animado{
+    visibility: hidden;
+}
 body{
     background-image: url("coffe.png");
     background-repeat: no-repeat;
