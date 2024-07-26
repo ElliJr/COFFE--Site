@@ -11,7 +11,7 @@
     
 }
 .efeito-txt-animado{
-    visibility: hidden;
+    visibility: hidden; 
 }
 body{
     background-image: url("coffe.png");
