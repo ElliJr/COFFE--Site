@@ -39,17 +39,11 @@ img, h3{
 .menu{
     background-color: rgba(0, 0, 0, 0.644);
     align-items: center;
-    width: 500px; 
+    width: 470px; 
     height: 50px;
     padding: 5px;
     border-radius: 35px 3px 30px 3px;
     flex-wrap: wrap;
-}
-div.meuMenu{
-    position: absolute;
-    left: 470px;
-    top: 8px;
-    font-size: 40px;
 }
 nav{
     margin-left: 40px;
@@ -82,20 +76,21 @@ a{
     font-weight: 400;
     font-style: normal;
 }
-div.conteiner{
+.conteiner{
     margin: auto;
     padding: 3px;
     backdrop-filter:(8px);
     border-radius: 12px;
 }
 .conteinerType{
-   padding: 10px;
+    padding: 10px;
 }
-    div.card1{
+    .card1{
         backdrop-filter: opacity(20%);
         padding: 30px;
         transition: 1s;
         border-radius: 12px;
+      
     }
 
     .card1:hover{
@@ -108,6 +103,7 @@ div.conteiner{
         margin: 12px;
         padding: 12px;
         display: inline-flex;
+        width: 100%;
     }
     p{
         margin: 20px;
@@ -116,14 +112,19 @@ div.conteiner{
         font-weight: 900;
         font-style: normal;
         font-size: 20px;
+        flex: auto;
+    }
+    .p-ajuste{
+        margin: 14px;
+        background-color: red;
     }
     .ajusteImagem{
         margin: 8px;
-    }
-    .outraImagem{
         margin-left: 209px;
     }
     img{
+        max-width: 100%;
+        height: auto;
         border-radius: 12px;
         transition: 1s;
     }
@@ -140,9 +141,6 @@ div.conteiner{
     .emoji:hover{
         transition: 1s;
         transform: rotateZ(40deg);
-    }
-    .img{
-        width: 600px;
     }
 section{
     margin: 10px;
@@ -172,6 +170,7 @@ section{
         padding: 12px;
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     .area1{
         margin: 10px;
@@ -197,4 +196,11 @@ section{
         transition: 1s;
         border-radius: 17px;
         background-color: rgba(0, 0, 0, 0.555);
+    }
+    @media(max-width: 1184px)
+    {
+       .img{
+        width: 600px;
+        height: 400px;
+       }
     }
