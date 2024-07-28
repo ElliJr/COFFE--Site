@@ -19,11 +19,12 @@ body{
     background-size: 1400px;
     background-attachment: fixed;
 }
-div.partePrincipal{
+.partePrincipal{
     margin: 10px;
 }
-div.detalhe{
-    background-color: rgba(48, 6, 6, 0.76);
+.detalhe{
+    background-image: linear-gradient(45deg, rgb(46, 1, 1), rgba(58, 22, 22, 0.705));
+    border-radius: 12px;
 }
 img, h3{
     display: inline-flex;
@@ -35,15 +36,14 @@ img, h3{
     font-style: normal;
     font-size: 43px
 }
-div.menu{
+.menu{
     background-color: rgba(0, 0, 0, 0.644);
-    margin-left: 500px;
+    align-items: center;
     width: 500px; 
     height: 50px;
-    position: absolute;
-    top: 20px;  
     padding: 5px;
-    border-radius: 12px;
+    border-radius: 35px 3px 30px 3px;
+    flex-wrap: wrap;
 }
 div.meuMenu{
     position: absolute;
@@ -57,13 +57,6 @@ nav{
 ul{
 margin-right:30px ;
 display: flex;
-}
-.entrar{
-    position: absolute;
-    left: 730px;
-    background-color: coral;
-    padding: 7px;
-    border-radius: 20px;
 }
 li{
     flex: auto;
@@ -90,7 +83,7 @@ a{
     font-style: normal;
 }
 div.conteiner{
-    margin: 100px;
+    margin: auto;
     padding: 3px;
     backdrop-filter:(8px);
     border-radius: 12px;
