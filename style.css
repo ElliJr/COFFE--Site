@@ -39,7 +39,7 @@ img, h3{
 .menu{
     background-color: rgba(0, 0, 0, 0.644);
     align-items: center;
-    width: 470px; 
+    width: 450px; 
     height: 50px;
     padding: 5px;
     border-radius: 35px 3px 30px 3px;
@@ -127,7 +127,7 @@ a{
         transform: rotateZ(4deg);
     }
     .conteinerEmoji{
-        margin-left: 100px;
+        margin-left: 400px;
     }
     .emoji{
         transition: 1s;
@@ -202,10 +202,16 @@ section{
     @media(max-width: 976px)
     {
      .imagemDoCoffe{
-        width: 400px;
+        width: 388px;
         height: 300px;
        }
        .junto{
          display: block;
        }
+    }
+    @media(max-width: 507px)
+    {
+        .conteinerEmoji{
+            margin-left: 100px;
+        }
     }
