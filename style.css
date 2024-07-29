@@ -174,8 +174,8 @@ section{
         flex-wrap: wrap;
     }
     .area1{
-        margin: 10px;
-        padding: 6px;
+        margin: 5px;
+        padding: 2px;
         display: inline-flex;
     }
     .icones{
@@ -184,6 +184,10 @@ section{
             font-family: "Roboto", sans-serif;
             font-weight: 900;
             font-style: normal;
+    }
+    .X{
+        position: relative;
+        top: -10px;
     }
     .voltarTopo{
         margin: 30px;
@@ -219,10 +223,12 @@ section{
             width: 420px;
         }
         body{
-         background-image: url("coffe.png");
-         background-size: 1600px;
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         
+        background-position: -430px; 
         }
     }
+   @media(max-width: 375px){
+
+       .primeiraArea{
+          display: flex;
+        }
+    } 
