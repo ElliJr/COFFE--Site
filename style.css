@@ -117,17 +117,12 @@ a{
     .p-ajuste{
         margin: 12px;
     }
-    .ajusteImagem{
-        margin: 8px;
-        margin-left: 209px;
-    }
-    img{
-        max-width: 100%;
+    .imagemDoCoffe{
         height: auto;
         border-radius: 12px;
         transition: 1s;
     }
-    img:hover{
+    .imagemDoCoffe:hover{
         transition: 1s;
         transform: rotateZ(4deg);
     }
@@ -150,11 +145,17 @@ section{
 .paragrafo{
      position: relative;
      top: 70px;
+     flex-wrap: wrap;
 }
+.coffe-img{
+    width: 70px;
+    height: 70px;
+}
+
+/*footer*/
     .ultimaParte{
         margin: 20px;
-        padding: 12px;
-        
+        padding: 12px;  
     }
     .parte{
         margin: 10px;
@@ -196,10 +197,15 @@ section{
         border-radius: 17px;
         background-color: rgba(0, 0, 0, 0.555);
     }
-    @media(max-width: 1184px)
+    /*final do footer*/
+
+    @media(max-width: 976px)
     {
-       .img{
+     .imagemDoCoffe{
         width: 600px;
-        height: 400px;
+        height: 500px;
+       }
+       .junto{
+         display: block;
        }
     }
