@@ -127,7 +127,7 @@ a{
         transform: rotateZ(4deg);
     }
     .conteinerEmoji{
-        margin-left: 300px;
+        margin-left: 100px;
     }
     .emoji{
         transition: 1s;
