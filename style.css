@@ -202,8 +202,8 @@ section{
     @media(max-width: 976px)
     {
      .imagemDoCoffe{
-        width: 600px;
-        height: 500px;
+        width: 400px;
+        height: 300px;
        }
        .junto{
          display: block;
