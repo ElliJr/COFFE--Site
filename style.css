@@ -165,6 +165,7 @@ section{
         background-repeat: no-repeat;   
         background-size: 1370px 900px;
         border-radius: 12px;
+        background-position: center center;
     }
     .primeiraArea{
         margin: 12px;
@@ -248,6 +249,7 @@ section{
             background-color: black;
             color: white;
         }
+        
     /*final do footer*/
 
     @media(max-width: 976px)
