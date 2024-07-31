@@ -130,13 +130,13 @@ a{
     .conteinerEmoji{
         margin-left: 400px;
     }
-    /*.emoji{
+     .emoji{
         transition: 1s;
     }
     .emoji:hover{
         transition: 1s;
         transform: rotateZ(40deg);
-    }*/
+    }
 section{
     margin: 10px;
 }
