@@ -249,6 +249,9 @@ section{
             background-color: black;
             color: white;
         }
+        .assinatura{
+            display: flex;
+        }
         
     /*final do footer*/
 
