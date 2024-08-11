@@ -6,64 +6,77 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Honk:MORF@0..45&family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
-.efeito-txt-animado{
-    visibility: hidden; 
+
+.efeito-txt-animado {
+    visibility: hidden;
 }
-body{
+
+body {
     background-image: url("");
     background-repeat: no-repeat;
     background-size: 1400px;
     background-attachment: fixed;
 }
-.partePrincipal{
+
+.partePrincipal {
     margin: 10px;
 }
-.detalhe{
+
+.detalhe {
     background-image: linear-gradient(45deg, rgb(46, 1, 1), rgba(58, 22, 22, 0.705));
     border-radius: 12px;
 }
-img, h3{
+
+img,
+h3 {
     display: inline-flex;
 }
-.h3{
+
+.h3 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     font-size: 43px
 }
-.menu{
+
+.menu {
     background-color: rgba(0, 0, 0, 0.644);
     align-items: center;
-    width: 450px; 
+    width: 450px;
     height: 50px;
     padding: 5px;
     border-radius: 35px 3px 30px 3px;
     flex-wrap: wrap;
 }
-nav{
+
+nav {
     margin-left: 40px;
 }
-ul{
-margin-right:30px ;
-display: flex;
+
+ul {
+    margin-right: 30px;
+    display: flex;
 }
-li{
+
+li {
     flex: auto;
     display: block;
     margin-inline: 12px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.a{
+
+.a {
     background-color: rgb(0, 0, 0);
     border-radius: 4px;
     padding: 2px;
@@ -71,225 +84,264 @@ a{
     color: wheat;
     transition: 0.5s;
 }
-.a:hover{
+
+.a:hover {
     transition: 0.5s;
     font-size: 20px;
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-.conteiner{
+
+.conteiner {
     margin: auto;
     padding: 3px;
-    backdrop-filter:(8px);
+    backdrop-filter: (8px);
     border-radius: 12px;
 }
-.conteinerType{
+
+.conteinerType {
     padding: 10px;
 }
-    .card1{
-        backdrop-filter: opacity(20%);
-        padding: 30px;
-        transition: 1s;
-        border-radius: 12px;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .card1:hover{
-        transition: 1s;
-        background-color: rgba(29, 2, 2, 0.815);
-        box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.2);
-        border-radius: 60px 20px;
-    }
-    .junto{
-        margin: 12px;
-        padding: 12px;
-        display: inline-flex;
-        width: 100%;
-    }
-    p{
-        margin: 20px;
-        padding: 2px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-        font-size: 20px;
-        flex: auto;
-    }
-    .p-ajuste{
-        margin: 12px;
-    }
-    .imagemDoCoffe{
-        height: auto;
-        border-radius: 12px;
-        transition: 1s;
-    }
-    .imagemDoCoffe:hover{
-        transition: 1s;
-        transform: rotateZ(4deg);
-    }
-    .conteinerEmoji{
-        margin-left: 400px;
-    }
-     .emoji{
-        transition: 1s;
-    }
-    .emoji:hover{
-        transition: 1s;
-        transform: rotateZ(40deg);
-    }
-section{
+.card1 {
+    backdrop-filter: opacity(20%);
+    padding: 30px;
+    transition: 1s;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1:hover {
+    transition: 1s;
+    background-color: rgba(29, 2, 2, 0.815);
+    box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 60px 20px;
+}
+
+.junto {
+    margin: 12px;
+    padding: 12px;
+    display: inline-flex;
+    width: 100%;
+}
+
+p {
+    margin: 20px;
+    padding: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    flex: auto;
+}
+
+.p-ajuste {
+    margin: 12px;
+}
+
+.imagemDoCoffe {
+    height: auto;
+    border-radius: 12px;
+    transition: 1s;
+}
+
+.imagemDoCoffe:hover {
+    transition: 1s;
+    transform: rotateZ(4deg);
+}
+
+.conteinerEmoji {
+    margin-left: 400px;
+}
+
+.emoji {
+    transition: 1s;
+}
+
+.emoji:hover {
+    transition: 1s;
+    transform: rotateZ(40deg);
+}
+
+section {
     margin: 10px;
 }
-.texto{
+
+.texto {
     margin-top: 30px;
 }
-.paragrafo{
-     position: relative;
-     top: 70px;
-     flex-wrap: wrap;
+
+.paragrafo {
+    position: relative;
+    top: 70px;
+    flex-wrap: wrap;
 }
-.coffe-img{
+
+.coffe-img {
     width: 70px;
     height: 70px;
 }
 
 /*footer*/
-    .ultimaParte{
-        margin: 20px;
-        padding: 12px;  
-    }
-    .parte{
-        margin: 10px;
-        padding: 50px;
-        background-image: url("https://img.freepik.com/fotos-gratis/pilha-de-3d-popular-social-media-logos_1379-881.jpg");
-        background-repeat: no-repeat;   
-        background-size: 1370px 900px;
-        border-radius: 12px;
-        background-position: center center;
-    }
-    .primeiraArea{
-        margin: 12px;
-        padding: 12px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    .area1{
-        margin: 5px;
-        padding: 2px;
-        display: inline-flex;
-    }
-    .icones{
-            font-size: 18px;
-            padding: 5px;
-            font-family: "Roboto", sans-serif;
-            font-weight: 900;
-            font-style: normal;
-    }
-    .X{
-        position: relative;
-        top: -10px;
-    }
-    .voltarTopo{
-        margin: 30px;
-    }
-    .back-to-top{
-        transition: 1s;
-        margin: 12;
-        padding: 5px;
-    }
-    .back-to-top:hover{
-        transition: 1s;
-        border-radius: 17px;
-        background-color: rgba(0, 0, 0, 0.555);
-    }
-    .Entrar{
-        background-color: rgba(75, 46, 46, 0.651);
-        margin: 20px;
-        padding: 20px;
-        width: 400px;
-        border: 3px solid black;
-    }
-    .inputBox{
-        position: relative;
-    }
-    .inputUser{
-        background: none;
-        border: none;
-        border-bottom: 1px solid white;
-        outline: none;
-        color: white;
-        font-size: 15px;
-        width: 100%;
-        letter-spacing: 2px;
-        cursor: pointer;
-    }
-    .labelInput{
-        position: absolute;
-        top: 0;
-        left: 0;
-        pointer-events: none;
-        transition: .5s;
-    }
-    .inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
-        top: -20px;
-        font-size: 12px;
-        color: rgb(0, 0, 0);
-        }
-        #butao{
-            width: 80px;
-            border: none;
-            border-radius: 12px;
-            padding: 15px;
-            cursor: pointer;
-            transition: 0.5s;
-        }
-        #butao:hover{
-            transition: 0.5s;
-            background-color: black;
-            color: white;
-        }
-        .assinatura{
-            padding: 20px;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-        }
-        .assinatura, h3{
-            font-family: "Platypi", serif;
-            font-optical-sizing: auto;
-            font-weight: <weight>;
-            font-style: normal;
-        }
-    /*final do footer*/
+.ultimaParte {
+    margin: 20px;
+    padding: 12px;
+}
 
-    @media(max-width: 976px)
-    {
-     .imagemDoCoffe{
+.parte {
+    margin: 10px;
+    padding: 50px;
+    background-image: url("https://img.freepik.com/fotos-gratis/pilha-de-3d-popular-social-media-logos_1379-881.jpg");
+    background-repeat: no-repeat;
+    background-size: 1370px 900px;
+    border-radius: 12px;
+    background-position: center center;
+}
+
+.primeiraArea {
+    margin: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.area1 {
+    margin: 5px;
+    padding: 2px;
+    display: inline-flex;
+}
+
+.icones {
+    font-size: 18px;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.X {
+    position: relative;
+    top: -10px;
+}
+
+.voltarTopo {
+    margin: 30px;
+}
+
+.back-to-top {
+    transition: 1s;
+    margin: 12;
+    padding: 5px;
+}
+
+.back-to-top:hover {
+    transition: 1s;
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.Entrar {
+    background-color: rgba(75, 46, 46, 0.651);
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    border: 3px solid black;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+#butao {
+    width: 80px;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#butao:hover {
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+.assinatura {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.assinatura,
+h3 {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*final do footer*/
+
+@media(max-width: 976px) {
+    .imagemDoCoffe {
         width: 388px;
         height: 300px;
-       }
-       .junto{
-         display: block;
-       }
     }
-    @media(max-width: 760px)
-    {
-        .conteinerEmoji{
-           margin-left:100px;
-        }
-        .menu{
-            width: 420px;
-        }
-        body{
-        background-position: -430px; 
-        }
-    }
-   @media(max-width: 375px){
 
-       .primeiraArea{
-          display: flex;
-        }
-    } 
+    .junto {
+        display: block;
+    }
+}
+
+@media(max-width: 760px) {
+    .conteinerEmoji {
+        margin-left: 100px;
+    }
+
+    .menu {
+        width: 420px;
+    }
+
+    body {
+        background-position: -430px;
+    }
+}
+
+@media(max-width: 375px) {
+
+    .primeiraArea {
+        display: flex;
+    }
+}
