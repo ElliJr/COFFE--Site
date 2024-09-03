@@ -2,22 +2,22 @@
  
 Este site, denominado COFFEE, é um portal dedicado à cultura nerd, abrangendo uma ampla gama de interesses que vão desde videogames e animes até produtos exclusivos para a comunidade geek. O site é projetado para ser uma comunidade interativa, onde os entusiastas podem explorar, compartilhar e conectar-se com outros apaixonados pelo universo nerd.
 
- Estrutura do Site:
+ 
 # Cabeçalho (Header):
 
-->Logo e Nome do Site:
+Logo e Nome do Site:
 Um logotipo do COFFEE acompanhado do nome do site, que é também um link para retornar ao topo da página.
-->Menu de Navegação:
+Menu de Navegação:
 Um menu com links para diferentes seções e funcionalidades do site, como o Chat-Online, Produtos, e Notícias.
 # Conteúdo Principal (Main Content):
 
-->Introdução ao COFFEE:
+Introdução ao COFFEE:
 O site se apresenta como um espaço para todos os tipos de entusiastas da cultura nerd, desde jogadores de RTS até fãs de animes. A introdução enfatiza a vasta diversidade de conteúdos que o site oferece, combinada com uma forte identidade visual, representada por imagens temáticas, como personagens pixelados e arte relacionada a jogos e animes.
-->Exploração do Universo Nerd:
+Exploração do Universo Nerd:
 O site também aborda o universo dos animes, oferecendo uma visão abrangente desde os clássicos até os lançamentos mais recentes.
-->Produtos e Comunidade:
+Produtos e Comunidade:
 Uma seção destaca os planos futuros do COFFEE para oferecer produtos exclusivos voltados para o público nerd e gamer, como colecionáveis e periféricos. Além disso, é mencionado que o COFFEE é mais do que um simples site; é uma comunidade onde os usuários podem interagir, discutir teorias e compartilhar suas paixões.
-->Convite à Aventura:
+Convite à Aventura:
 O texto finaliza com um convite aos visitantes para se juntarem à comunidade COFFEE, explorando o "universo nerd online" e se preparando para novas descobertas.
 # Rodapé (Footer):
 
@@ -43,9 +43,9 @@ Um menu com links para diferentes seções e funcionalidades do site, como o Cha
 Conteúdo Principal (Main Content):
 
 Introdução ao COFFEE:
-->O site se apresenta como um espaço para todos os tipos de entusiastas da cultura nerd, desde jogadores de RTS até fãs de animes. A introdução enfatiza a vasta diversidade de conteúdos que o site oferece, combinada com uma forte identidade visual, representada por imagens temáticas, como personagens pixelados e arte relacionada a jogos e animes.
+O site se apresenta como um espaço para todos os tipos de entusiastas da cultura nerd, desde jogadores de RTS até fãs de animes. A introdução enfatiza a vasta diversidade de conteúdos que o site oferece, combinada com uma forte identidade visual, representada por imagens temáticas, como personagens pixelados e arte relacionada a jogos e animes.
 Exploração do Universo Nerd:
-->O site também aborda o universo dos animes, oferecendo uma visão abrangente desde os clássicos até os lançamentos mais recentes.
+O site também aborda o universo dos animes, oferecendo uma visão abrangente desde os clássicos até os lançamentos mais recentes.
 Produtos e Comunidade:
 Uma seção destaca os planos futuros do COFFEE para oferecer produtos exclusivos voltados para o público nerd e gamer, como colecionáveis e periféricos. Além disso, é mencionado que o COFFEE é mais do que um simples site; é uma comunidade onde os usuários podem interagir, discutir teorias e compartilhar suas paixões.
 Convite à Aventura:
