@@ -65,8 +65,3 @@ Este site COFFEE é projetado para ser uma central interativa para a comunidade 
 
 
 <img src="imagem-coffe.png" width="300px" height="300px">
-
-
-
-
-
