@@ -66,7 +66,18 @@ Este site COFFEE é projetado para ser uma central interativa para a comunidade 
 
 <img src="imagem-coffe.png" width="300px" height="300px">
 
-
+<style>
+    img{
+        align-items: center;
+        transition: 1s;
+        padding: 12px;
+        border-radius: 12px;
+    }
+    img:hover{
+        transition: 1s:
+        background: lightgrey;
+    }
+</style>
 
 
 
