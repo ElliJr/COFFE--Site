@@ -64,8 +64,7 @@ Imagens e Multimídia: O uso de imagens de alta qualidade relacionadas a jogos, 
 Este site COFFEE é projetado para ser uma central interativa para a comunidade nerd, oferecendo conteúdo diversificado e preparando o terreno para futuras expansões que incluem produtos exclusivos. Ele combina informações detalhadas, uma interface visualmente atraente e funcionalidades interativas para criar uma experiência única para seus usuários.
 
 
-<img src="imagem-coffe.png">
-
+<img src="imagem-coffe.png" width="300px" height=""300px>
 
 
 
