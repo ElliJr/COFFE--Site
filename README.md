@@ -29,7 +29,7 @@ Uma seção creditando o desenvolvedor do site, com um link para o portfólio pe
 ScrollReveal: O site utiliza a biblioteca ScrollReveal para adicionar animações ao texto enquanto o usuário rola a página, o que torna a experiência visual mais dinâmica.
 Responsividade: O design é responsivo, adaptando-se a diferentes dispositivos e tamanhos de tela.
 Imagens e Multimídia: O uso de imagens de alta qualidade relacionadas a jogos, animes e outros elementos da cultura nerd contribui para um visual envolvente e imersivo.
------------------------------------------
+
 Este site COFFEE é projetado para ser uma central interativa para a comunidade nerd, oferecendo conteúdo diversificado e preparando o terreno para futuras expansões que incluem produtos exclusivos. Ele combina informações detalhadas, uma interface visualmente atraente e funcionalidades interativas para criar uma experiência única para seus usuários.
 
 
