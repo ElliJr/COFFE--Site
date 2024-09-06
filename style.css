@@ -17,22 +17,26 @@
     visibility: hidden;
 }
 
-body {
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: 1400px;
-    background-attachment: fixed;
+body{
+    --value: white;
+    background-color: var(--value);
+    transition: 1s;
 }
-
+#switch{
+    cursor: pointer;
+}
 .partePrincipal {
     margin: 10px;
 }
-
+.dark{
+  justify-content: end;
+}
 .detalhe {
     background-image: linear-gradient(45deg, rgb(46, 1, 1), rgba(58, 22, 22, 0.705));
     border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
 }
-
 img,
 h3 {
     display: inline-flex;
@@ -46,14 +50,11 @@ h3 {
     font-size: 43px
 }
 
-.menu {
-    background-color: rgba(0, 0, 0, 0.644);
+.menu {    
     align-items: center;
     width: 450px;
     height: 50px;
-    padding: 5px;
-    border-radius: 35px 3px 30px 3px;
-    flex-wrap: wrap;
+    padding: 5px;    
 }
 
 nav {
@@ -61,36 +62,19 @@ nav {
 }
 
 ul {
-    margin-right: 30px;
+    list-style: none;
     display: flex;
 }
 
 li {
+    justify-content: space-between;
     flex: auto;
-    display: block;
     margin-inline: 12px;
 }
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-.a {
-    background-color: rgb(0, 0, 0);
-    border-radius: 4px;
-    padding: 2px;
-    text-decoration: none;
-    color: wheat;
-    transition: 0.5s;
-}
-
-.a:hover {
-    transition: 0.5s;
-    font-size: 20px;
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    color: rgb(255, 255, 255);
 }
 
 .conteiner {
@@ -323,25 +307,82 @@ h3 {
     .junto {
         display: block;
     }
+    .botao-darkMode{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .open-btn{
+    display: block;        
+    }
 }
 
 @media(max-width: 760px) {
     .conteinerEmoji {
         margin-left: 100px;
     }
-
-    .menu {
-        width: 420px;
-    }
-
     body {
         background-position: -430px;
     }
 }
-
 @media(max-width: 375px) {
 
     .primeiraArea {
         display: flex;
     }
 }
+
+/*menu*/
+/* Menu lateral */
+.menu-lateral {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .menu-lateral a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .menu-lateral a:hover {
+    color: #f1f1f1;
+  }
+  
+  .menu-lateral .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Botão para abrir o menu */
+  .open-btn {
+    font-size: 30px;
+    cursor: pointer;
+    top: 20px;
+    left: 600px;
+    color: #fff;    
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  /* Estilos do container de chat */
+  .chat-container {
+    margin-left: 50px;
+    padding: 10px;
+  }
+ 
