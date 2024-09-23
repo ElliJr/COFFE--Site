@@ -313,9 +313,6 @@ h3 {
     .menu{
         display: none;
     }
-    .open-btn{
-    display: block;        
-    }
 }
 
 @media(max-width: 760px) {
@@ -370,6 +367,7 @@ h3 {
   
   /* Botão para abrir o menu */
   .open-btn {
+    visibility: visible;
     font-size: 30px;
     cursor: pointer;
     top: 20px;
